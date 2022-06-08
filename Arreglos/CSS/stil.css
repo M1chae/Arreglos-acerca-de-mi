@@ -1,0 +1,81 @@
+
+
+button{
+    background-color: rgb(205, 190, 219);
+    color: black;
+    border: solid 3px;
+    border-color: black;
+    border-radius: 8px 8px 8px 8px;
+    padding: 15px 32px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+    margin: 4px 2px;
+    
+    
+}
+body{
+    background-image: url("nev.jpg");
+    /*background-color: skyblue;*/
+    color: black;
+    font-size: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Menu{
+    overflow: hidden;
+    position: fixed;
+    font-family: Helvetica;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: blue;
+}
+
+.Menu a{
+    /*overflow: hidden;*/
+    font-family: helvetica;
+    font-size: small;
+    text-decoration: none;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(255, 255, 255);
+
+}
+
+.Menu a:hover{
+    background: rgb(255, 255, 255);
+    color: blue;
+    border: 6px solid orange;
+    font-weight: 900;
+
+}
+
+.cuerpo{
+    margin-top: 20px;
+    padding: 10px;
+    font-size: small;
+}
+
+.datos{
+    background-size: cover;    
+     background-repeat: no-repeat;    
+     height: 500px;   
+     position: relative; 
+     margin: 3%;
+}
+
+.descripcion{
+    text-align: center;    
+    font-family: 'Trebuchet MS';    
+    color: black; 
+    position: absolute;     
+    top: 25%;     left: 30%; right: 30%;    
+    text-transform: (-50%,-50%);
+}
+
+
+
+
